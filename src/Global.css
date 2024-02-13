@@ -1,0 +1,71 @@
+
+:root{
+    --bg-color:#1B1528;
+    --high-text:#EF6461;
+    --text-color:#EFF6E0;
+    --high2-color:#FF9F1C;
+    --second-bg-color:#2A333C;
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    letter-spacing: 2.4px;
+    font-weight: 500;
+    color:#EFF6E0;
+    background: var(--bg-color);
+}
+
+body::-webkit-scrollbar {
+    width: 6px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--second-bg-color);        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--high-text);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 1px solid var(--text-color);  /* creates padding around scroll thumb */
+  }
+
+
+.awssld{
+    max-height: 70vh ;
+}
+
+.awssld__wrapper{
+    max-height: 70vh;
+}
+
+/* .awssld__bullets{
+    display: none !important;
+} */
+
+.etbmwA{
+    position: absolute;
+    right: 80px;
+    top:-30px;
+}
+
+.bhRnqO{
+    position: absolute;
+    top:-16px !important;
+    border-radius: 5px !important;
+    background-color: rgba(255, 255, 255, 0.3);
+    right: -40px;
+}
+
+.kVtMtA{
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px !important;
+    position: absolute;
+    top:-15px;
+    left:-50px !important;
+}
+
+.swiper-button-next, .swiper-button-prev{
+    color: var(--high-text) !important;
+}
+
